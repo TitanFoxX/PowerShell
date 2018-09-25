@@ -9,7 +9,7 @@ $AD_User += Get-ADUser -Filter * -Property * | Sort LastLogonDate -Descending
 
 # Please fill out your own file path between the quotes
 # Script will continue without notification in case of a error
-$FilePath = "<your file path comes here>"
+$FilePath = "Please fill in your own file path, ending with the filename (no extension needed)"
 $ErrorActionPreference= 'silentlycontinue'
 
 # Create a new Microsoft Excel worksheet with some pre-formatted headers
